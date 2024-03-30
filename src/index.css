@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+  /* background-color: aqua; */
+  background-image: linear-gradient(to left, rgb(49, 218, 99),
+
+      rgb(125, 228, 40));
+}
+
+
+.maincontainer {
+  width: 100%;
+
+}
+
+p {
+  margin-top: 12px;
+}
+
+.diplayinput {
+  border: 1px solid;
+  height: 50px;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.Amountinfo {
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
